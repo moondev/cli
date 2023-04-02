@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghrepo"
 )
 
 func RequestableReviewersForCompletion(httpClient *http.Client, repo ghrepo.Interface) ([]string, error) {

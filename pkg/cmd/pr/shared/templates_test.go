@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	fd "github.com/cli/cli/v2/internal/featuredetection"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/internal/prompter"
-	"github.com/cli/cli/v2/pkg/httpmock"
+	fd "github.com/moondev/cli/v2/internal/featuredetection"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/internal/prompter"
+	"github.com/moondev/cli/v2/pkg/httpmock"
 	"github.com/stretchr/testify/assert"
 )
 

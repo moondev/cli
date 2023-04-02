@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/internal/run"
-	"github.com/cli/cli/v2/pkg/cmd/pr/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/iostreams"
 	"github.com/google/shlex"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/browser"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/internal/run"
+	"github.com/moondev/cli/v2/pkg/cmd/pr/shared"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/httpmock"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -428,7 +428,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					Conclusion:  "SUCCESS",
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
-					DetailsURL:  "https://github.com/cli/cli/runs/1",
+					DetailsURL:  "https://github.com/moondev/cli/runs/1",
 				},
 				{
 					TypeName:    "CheckRun",
@@ -437,7 +437,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					Conclusion:  "FAILURE",
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
-					DetailsURL:  "https://github.com/cli/cli/runs/2",
+					DetailsURL:  "https://github.com/moondev/cli/runs/2",
 				},
 				{
 					TypeName:    "CheckRun",
@@ -446,7 +446,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					Conclusion:  "SUCCESS",
 					StartedAt:   time.Date(2022, 2, 2, 2, 2, 2, 2, time.UTC),
 					CompletedAt: time.Date(2022, 2, 2, 2, 2, 2, 2, time.UTC),
-					DetailsURL:  "https://github.com/cli/cli/runs/3",
+					DetailsURL:  "https://github.com/moondev/cli/runs/3",
 				},
 			},
 			want: []api.CheckContext{
@@ -457,7 +457,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					Conclusion:  "SUCCESS",
 					StartedAt:   time.Date(2022, 2, 2, 2, 2, 2, 2, time.UTC),
 					CompletedAt: time.Date(2022, 2, 2, 2, 2, 2, 2, time.UTC),
-					DetailsURL:  "https://github.com/cli/cli/runs/3",
+					DetailsURL:  "https://github.com/moondev/cli/runs/3",
 				},
 				{
 					TypeName:    "CheckRun",
@@ -466,7 +466,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					Conclusion:  "SUCCESS",
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
-					DetailsURL:  "https://github.com/cli/cli/runs/1",
+					DetailsURL:  "https://github.com/moondev/cli/runs/1",
 				},
 			},
 		},
@@ -483,7 +483,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/2",
+					TargetURL:   "https://github.com/moondev/cli/2",
 				},
 				{
 					TypeName:    "StatusContext",
@@ -495,7 +495,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 2, 2, 2, 2, 2, 2, time.UTC),
 					CompletedAt: time.Date(2022, 2, 2, 2, 2, 2, 2, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/3",
+					TargetURL:   "https://github.com/moondev/cli/3",
 				},
 				{
 					TypeName:    "StatusContext",
@@ -507,7 +507,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/1",
+					TargetURL:   "https://github.com/moondev/cli/1",
 				},
 			},
 			want: []api.CheckContext{
@@ -521,7 +521,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 2, 2, 2, 2, 2, 2, time.UTC),
 					CompletedAt: time.Date(2022, 2, 2, 2, 2, 2, 2, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/3",
+					TargetURL:   "https://github.com/moondev/cli/3",
 				},
 				{
 					TypeName:    "StatusContext",
@@ -533,7 +533,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/1",
+					TargetURL:   "https://github.com/moondev/cli/1",
 				},
 			},
 		},
@@ -547,7 +547,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					Conclusion:  "SUCCESS",
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
-					DetailsURL:  "https://github.com/cli/cli/runs/1",
+					DetailsURL:  "https://github.com/moondev/cli/runs/1",
 				},
 				{
 					TypeName:    "StatusContext",
@@ -559,7 +559,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/2",
+					TargetURL:   "https://github.com/moondev/cli/2",
 				},
 				{
 					TypeName:    "StatusContext",
@@ -571,7 +571,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/3",
+					TargetURL:   "https://github.com/moondev/cli/3",
 				},
 			},
 			want: []api.CheckContext{
@@ -582,7 +582,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					Conclusion:  "SUCCESS",
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
-					DetailsURL:  "https://github.com/cli/cli/runs/1",
+					DetailsURL:  "https://github.com/moondev/cli/runs/1",
 				},
 				{
 					TypeName:    "StatusContext",
@@ -594,7 +594,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/2",
+					TargetURL:   "https://github.com/moondev/cli/2",
 				},
 				{
 					TypeName:    "StatusContext",
@@ -606,7 +606,7 @@ func TestEliminateDuplicates(t *testing.T) {
 					StartedAt:   time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					CompletedAt: time.Date(2022, 1, 1, 1, 1, 1, 1, time.UTC),
 					DetailsURL:  "",
-					TargetURL:   "https://github.com/cli/cli/3",
+					TargetURL:   "https://github.com/moondev/cli/3",
 				},
 			},
 		},

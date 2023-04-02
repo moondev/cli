@@ -982,20 +982,20 @@ func TestClientClone(t *testing.T) {
 	}{
 		{
 			name:        "clone",
-			wantCmdArgs: `path/to/git -c credential.helper= -c credential.helper=!"gh" auth git-credential clone github.com/cli/cli`,
+			wantCmdArgs: `path/to/git -c credential.helper= -c credential.helper=!"gh" auth git-credential clone github.com/moondev/cli`,
 			wantTarget:  "cli",
 		},
 		{
 			name:        "accepts command modifiers",
 			mods:        []CommandModifier{WithRepoDir("/path/to/repo")},
-			wantCmdArgs: `path/to/git -C /path/to/repo -c credential.helper= -c credential.helper=!"gh" auth git-credential clone github.com/cli/cli`,
+			wantCmdArgs: `path/to/git -C /path/to/repo -c credential.helper= -c credential.helper=!"gh" auth git-credential clone github.com/moondev/cli`,
 			wantTarget:  "cli",
 		},
 		{
 			name:          "git error",
 			cmdExitStatus: 1,
 			cmdStderr:     "git error message",
-			wantCmdArgs:   `path/to/git -c credential.helper= -c credential.helper=!"gh" auth git-credential clone github.com/cli/cli`,
+			wantCmdArgs:   `path/to/git -c credential.helper= -c credential.helper=!"gh" auth git-credential clone github.com/moondev/cli`,
 			wantErrorMsg:  "failed to run git: git error message",
 		},
 	}
@@ -1006,7 +1006,7 @@ func TestClientClone(t *testing.T) {
 				GitPath:        "path/to/git",
 				commandContext: cmdCtx,
 			}
-			target, err := client.Clone(context.Background(), "github.com/cli/cli", []string{}, tt.mods...)
+			target, err := client.Clone(context.Background(), "github.com/moondev/cli", []string{}, tt.mods...)
 			assert.Equal(t, tt.wantCmdArgs, strings.Join(cmd.Args[3:], " "))
 			if tt.wantErrorMsg == "" {
 				assert.NoError(t, err)

@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/cmd/run/shared"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/pkg/cmd/run/shared"
 )
 
 type apiPlatform struct {

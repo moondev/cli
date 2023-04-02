@@ -1,13 +1,13 @@
 package search
 
 import (
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 
-	searchCommitsCmd "github.com/cli/cli/v2/pkg/cmd/search/commits"
-	searchIssuesCmd "github.com/cli/cli/v2/pkg/cmd/search/issues"
-	searchPrsCmd "github.com/cli/cli/v2/pkg/cmd/search/prs"
-	searchReposCmd "github.com/cli/cli/v2/pkg/cmd/search/repos"
+	searchCommitsCmd "github.com/moondev/cli/v2/pkg/cmd/search/commits"
+	searchIssuesCmd "github.com/moondev/cli/v2/pkg/cmd/search/issues"
+	searchPrsCmd "github.com/moondev/cli/v2/pkg/cmd/search/prs"
+	searchReposCmd "github.com/moondev/cli/v2/pkg/cmd/search/repos"
 )
 
 func NewCmdSearch(f *cmdutil.Factory) *cobra.Command {

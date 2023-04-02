@@ -1,6 +1,6 @@
 # GitHub CLI project layout
 
-At a high level, these areas make up the `github.com/cli/cli` project:
+At a high level, these areas make up the `github.com/moondev/cli` project:
 - [`cmd/`](../cmd) - `main` packages for building binaries such as the `gh` executable
 - [`pkg/`](../pkg) - most other packages, including the implementation for individual gh commands
 - [`docs/`](../docs) - documentation for maintainers and contributors

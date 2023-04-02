@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
 )
 
 func Test_codespace_displayName(t *testing.T) {

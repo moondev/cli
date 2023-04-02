@@ -9,7 +9,7 @@
               "number": 10,
               "title": "Blueberries are a good fruit",
               "state": "OPEN",
-              "url": "https://github.com/cli/cli/pull/10",
+              "url": "https://github.com/moondev/cli/pull/10",
               "headRefName": "blueberries",
               "isDraft": false,
               "headRepositoryOwner": {
@@ -29,7 +29,7 @@
             "number": 8,
             "title": "Strawberries are not actually berries",
             "state": "OPEN",
-            "url": "https://github.com/cli/cli/pull/8",
+            "url": "https://github.com/moondev/cli/pull/8",
             "headRefName": "strawberries",
             "isDraft": false
           }
@@ -44,7 +44,7 @@
             "number": 9,
             "title": "Apples are tasty",
             "state": "OPEN",
-            "url": "https://github.com/cli/cli/pull/9",
+            "url": "https://github.com/moondev/cli/pull/9",
             "headRefName": "apples",
             "isDraft": false
           } }, {
@@ -52,7 +52,7 @@
             "number": 11,
             "title": "Figs are my favorite",
             "state": "OPEN",
-            "url": "https://github.com/cli/cli/pull/1",
+            "url": "https://github.com/moondev/cli/pull/1",
             "headRefName": "figs",
             "isDraft": true
           }

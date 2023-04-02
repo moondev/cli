@@ -16,14 +16,14 @@ import (
 	"text/template"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/codespaces"
-	"github.com/cli/cli/v2/internal/codespaces/api"
-	"github.com/cli/cli/v2/internal/codespaces/rpc"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/liveshare"
-	"github.com/cli/cli/v2/pkg/ssh"
 	"github.com/cli/safeexec"
+	"github.com/moondev/cli/v2/internal/codespaces"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/internal/codespaces/rpc"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/liveshare"
+	"github.com/moondev/cli/v2/pkg/ssh"
 	"github.com/spf13/cobra"
 )
 

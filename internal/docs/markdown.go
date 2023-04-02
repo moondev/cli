@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cli/cli/v2/pkg/cmd/root"
+	"github.com/moondev/cli/v2/pkg/cmd/root"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 	"github.com/spf13/pflag"

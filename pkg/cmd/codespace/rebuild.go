@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cli/cli/v2/internal/codespaces/api"
-	"github.com/cli/cli/v2/internal/codespaces/rpc"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/internal/codespaces/rpc"
 	"github.com/spf13/cobra"
 )
 

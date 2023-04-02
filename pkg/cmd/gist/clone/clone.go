@@ -6,11 +6,11 @@ import (
 	"net/http"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/git"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

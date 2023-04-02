@@ -2,10 +2,10 @@ package variable
 
 import (
 	"github.com/MakeNowJust/heredoc"
-	cmdDelete "github.com/cli/cli/v2/pkg/cmd/variable/delete"
-	cmdList "github.com/cli/cli/v2/pkg/cmd/variable/list"
-	cmdSet "github.com/cli/cli/v2/pkg/cmd/variable/set"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	cmdDelete "github.com/moondev/cli/v2/pkg/cmd/variable/delete"
+	cmdList "github.com/moondev/cli/v2/pkg/cmd/variable/list"
+	cmdSet "github.com/moondev/cli/v2/pkg/cmd/variable/set"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

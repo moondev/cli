@@ -16,7 +16,7 @@ If you do want your feature merged into `gh`, read on.
 
 ## Step 1: UX review
 
-No matter what state your code is in, open up an issue either in [the open source cli/cli repository](https://github.com/cli/cli) or, if you'd rather not make the new feature public yet, [the closed github/cli repository](https://github.com/github/cli).
+No matter what state your code is in, open up an issue either in [the open source cli/cli repository](https://github.com/moondev/cli) or, if you'd rather not make the new feature public yet, [the closed github/cli repository](https://github.com/github/cli).
 
 Describe how your new command would be used. Include mock-up examples, including a mock-up of what usage information would be printed if a user ran your command with `--help`.
 
@@ -42,11 +42,11 @@ We do a `gh` release roughly every other week, but if the changeset for a given 
 
 Is this new feature intended for all GitHub users or just a few? If it's as applicable to your average GitHub user or customer as something like Codespaces or Pull Requests, that's a strong indication it should be merged into `trunk`. If not, consider keeping it an extension.
 
-If after all of this consideration you think your feature should be merged, please open an issue in [cli/cli](https://github.com/cli/cli) with a link to your extension's code. It will go into our triage queue and we'll confirm that merging into `trunk` is feasible and appropriate.
+If after all of this consideration you think your feature should be merged, please open an issue in [cli/cli](https://github.com/moondev/cli) with a link to your extension's code. It will go into our triage queue and we'll confirm that merging into `trunk` is feasible and appropriate.
 
 ## Step 4
 
-Once we've signed off, open up a pull request in [cli/cli](https://github.com/cli/cli) adding your command. Since we make use of `go-gh` within our code already, it shouldn't be too onerous to make your extension merge-able. Link to the issue you opened in step 3 so we have some context on the pull request.
+Once we've signed off, open up a pull request in [cli/cli](https://github.com/moondev/cli) adding your command. Since we make use of `go-gh` within our code already, it shouldn't be too onerous to make your extension merge-able. Link to the issue you opened in step 3 so we have some context on the pull request.
 
 Keep in mind that our expectation of non-trivial commands that end up merged into `cli/cli` is that your team will continue to maintain what they merged over time. We can help redirect issues your way as part of our first responder rotation, but are unable to take on the full support burden for your new command.
 

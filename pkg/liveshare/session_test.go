@@ -11,7 +11,7 @@ import (
 	"sync"
 	"testing"
 
-	livesharetest "github.com/cli/cli/v2/pkg/liveshare/test"
+	livesharetest "github.com/moondev/cli/v2/pkg/liveshare/test"
 	"github.com/sourcegraph/jsonrpc2"
 )
 

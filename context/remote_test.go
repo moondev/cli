@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/git"
+	"github.com/moondev/cli/v2/internal/ghrepo"
 	"github.com/stretchr/testify/assert"
 )
 

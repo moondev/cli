@@ -3,10 +3,10 @@ package shared
 import (
 	"fmt"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/text"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/text"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 )
 
 func StateTitleWithColor(cs *iostreams.ColorScheme, pr api.PullRequest) string {

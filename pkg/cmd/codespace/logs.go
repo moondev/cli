@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cli/cli/v2/internal/codespaces"
-	"github.com/cli/cli/v2/internal/codespaces/rpc"
-	"github.com/cli/cli/v2/pkg/liveshare"
+	"github.com/moondev/cli/v2/internal/codespaces"
+	"github.com/moondev/cli/v2/internal/codespaces/rpc"
+	"github.com/moondev/cli/v2/pkg/liveshare"
 	"github.com/spf13/cobra"
 )
 

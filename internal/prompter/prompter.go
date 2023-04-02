@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/pkg/surveyext"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/pkg/surveyext"
 )
 
 //go:generate moq -rm -out prompter_mock.go . Prompter

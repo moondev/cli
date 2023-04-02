@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 )
 
 func PreserveInput(io *iostreams.IOStreams, state *IssueMetadataState, createErr *error) func() {

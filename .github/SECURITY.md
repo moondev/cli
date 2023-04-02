@@ -10,5 +10,5 @@ If you believe you have found a security vulnerability in GitHub CLI, you can re
 
 Thanks for helping make GitHub safe for everyone.
 
-  [private vulnerability reporting]: https://github.com/cli/cli/security/advisories
+  [private vulnerability reporting]: https://github.com/moondev/cli/security/advisories
   [HackerOne]: https://hackerone.com/github

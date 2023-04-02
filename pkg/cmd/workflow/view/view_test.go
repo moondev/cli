@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	runShared "github.com/cli/cli/v2/pkg/cmd/run/shared"
-	"github.com/cli/cli/v2/pkg/cmd/workflow/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/iostreams"
 	"github.com/google/shlex"
+	"github.com/moondev/cli/v2/internal/browser"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	runShared "github.com/moondev/cli/v2/pkg/cmd/run/shared"
+	"github.com/moondev/cli/v2/pkg/cmd/workflow/shared"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/httpmock"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 	"github.com/stretchr/testify/assert"
 )
 

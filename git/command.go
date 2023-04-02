@@ -7,7 +7,7 @@ import (
 	"io"
 	"os/exec"
 
-	"github.com/cli/cli/v2/internal/run"
+	"github.com/moondev/cli/v2/internal/run"
 )
 
 type commandCtx = func(ctx context.Context, name string, args ...string) *exec.Cmd

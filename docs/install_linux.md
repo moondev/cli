@@ -1,6 +1,6 @@
 # Installing gh on Linux and BSD
 
-Packages downloaded from https://cli.github.com or from https://github.com/cli/cli/releases
+Packages downloaded from https://cli.github.com or from https://github.com/moondev/cli/releases
 are considered official binaries. We focus on popular Linux distros and
 the following CPU architectures: `i386`, `amd64`, `arm64`, `armhf`.
 
@@ -233,7 +233,7 @@ Void Linux users can install from the [official distribution repo](https://voidl
 sudo xbps-install github-cli
 ```
 
-[releases page]: https://github.com/cli/cli/releases/latest
+[releases page]: https://github.com/moondev/cli/releases/latest
 [arch linux repo]: https://www.archlinux.org/packages/community/x86_64/github-cli
 [arch linux aur]: https://aur.archlinux.org/packages/github-cli-git
 [^1]: https://wiki.alpinelinux.org/wiki/Package_management#Repository_pinning

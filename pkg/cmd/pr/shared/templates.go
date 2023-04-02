@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/git"
-	fd "github.com/cli/cli/v2/internal/featuredetection"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/githubtemplate"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/git"
+	fd "github.com/moondev/cli/v2/internal/featuredetection"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/pkg/githubtemplate"
 	"github.com/shurcooL/githubv4"
 )
 

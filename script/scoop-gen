@@ -7,7 +7,7 @@ jsonfile="${2?}"
 
 jq_args=(
   --arg version "${tagname#v}"
-  --arg urlprefix "https://github.com/cli/cli/releases/download/$tagname/"
+  --arg urlprefix "https://github.com/moondev/cli/releases/download/$tagname/"
   $(cat | awk '
     /windows_386/ {
       printf "--arg win32hash %s\n", $1

@@ -13,12 +13,12 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/terminal"
-	clicontext "github.com/cli/cli/v2/context"
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/codespaces"
-	"github.com/cli/cli/v2/internal/codespaces/api"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/liveshare"
+	clicontext "github.com/moondev/cli/v2/context"
+	"github.com/moondev/cli/v2/internal/browser"
+	"github.com/moondev/cli/v2/internal/codespaces"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/liveshare"
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 )

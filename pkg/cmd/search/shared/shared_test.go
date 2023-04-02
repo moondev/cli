@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/pkg/cmd/factory"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/search"
+	"github.com/moondev/cli/v2/internal/browser"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/pkg/cmd/factory"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/search"
 	"github.com/stretchr/testify/assert"
 )
 

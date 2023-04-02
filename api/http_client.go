@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/utils"
 	"github.com/cli/go-gh"
 	ghAPI "github.com/cli/go-gh/pkg/api"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/utils"
 )
 
 type tokenGetter interface {

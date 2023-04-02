@@ -5,9 +5,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/internal/ghrepo"
 )
 
 func deleteDeployKey(httpClient *http.Client, repo ghrepo.Interface, id string) error {

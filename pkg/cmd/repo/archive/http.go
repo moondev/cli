@@ -3,7 +3,7 @@ package archive
 import (
 	"net/http"
 
-	"github.com/cli/cli/v2/api"
+	"github.com/moondev/cli/v2/api"
 	"github.com/shurcooL/githubv4"
 )
 

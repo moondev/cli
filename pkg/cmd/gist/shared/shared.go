@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cli/cli/v2/api"
 	"github.com/gabriel-vasile/mimetype"
+	"github.com/moondev/cli/v2/api"
 	"github.com/shurcooL/githubv4"
 )
 

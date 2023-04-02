@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cli/cli/v2/api"
-	fd "github.com/cli/cli/v2/internal/featuredetection"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/set"
+	"github.com/moondev/cli/v2/api"
+	fd "github.com/moondev/cli/v2/internal/featuredetection"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/pkg/set"
 )
 
 // IssueFromArgWithFields loads an issue or pull request with the specified fields. If some of the fields

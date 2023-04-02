@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cli/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
 	"github.com/spf13/cobra"
 )
 

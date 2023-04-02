@@ -3,7 +3,7 @@ package shared
 import (
 	"strings"
 
-	"github.com/cli/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/config"
 )
 
 func AuthTokenWriteable(authCfg *config.AuthConfig, hostname string) (string, bool) {

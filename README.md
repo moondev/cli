@@ -125,7 +125,7 @@ tool. Check out our [more detailed explanation][gh-vs-hub] to learn more.
 [Chocolatey]: https://chocolatey.org
 [Conda]: https://docs.conda.io/en/latest/
 [Spack]: https://spack.io
-[releases page]: https://github.com/cli/cli/releases/latest
+[releases page]: https://github.com/moondev/cli/releases/latest
 [hub]: https://github.com/github/hub
 [contributing]: ./.github/CONTRIBUTING.md
 [gh-vs-hub]: ./docs/gh-vs-hub.md

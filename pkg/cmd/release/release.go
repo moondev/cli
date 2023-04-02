@@ -1,15 +1,15 @@
 package release
 
 import (
-	cmdCreate "github.com/cli/cli/v2/pkg/cmd/release/create"
-	cmdDelete "github.com/cli/cli/v2/pkg/cmd/release/delete"
-	cmdDeleteAsset "github.com/cli/cli/v2/pkg/cmd/release/delete-asset"
-	cmdDownload "github.com/cli/cli/v2/pkg/cmd/release/download"
-	cmdUpdate "github.com/cli/cli/v2/pkg/cmd/release/edit"
-	cmdList "github.com/cli/cli/v2/pkg/cmd/release/list"
-	cmdUpload "github.com/cli/cli/v2/pkg/cmd/release/upload"
-	cmdView "github.com/cli/cli/v2/pkg/cmd/release/view"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	cmdCreate "github.com/moondev/cli/v2/pkg/cmd/release/create"
+	cmdDelete "github.com/moondev/cli/v2/pkg/cmd/release/delete"
+	cmdDeleteAsset "github.com/moondev/cli/v2/pkg/cmd/release/delete-asset"
+	cmdDownload "github.com/moondev/cli/v2/pkg/cmd/release/download"
+	cmdUpdate "github.com/moondev/cli/v2/pkg/cmd/release/edit"
+	cmdList "github.com/moondev/cli/v2/pkg/cmd/release/list"
+	cmdUpload "github.com/moondev/cli/v2/pkg/cmd/release/upload"
+	cmdView "github.com/moondev/cli/v2/pkg/cmd/release/view"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/config"
 )
 
 func TestExpandAlias(t *testing.T) {

@@ -1,7 +1,7 @@
 package cmdutil
 
 import (
-	"github.com/cli/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/config"
 	"github.com/spf13/cobra"
 )
 

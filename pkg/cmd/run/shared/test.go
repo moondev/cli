@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	workflowShared "github.com/cli/cli/v2/pkg/cmd/workflow/shared"
+	workflowShared "github.com/moondev/cli/v2/pkg/cmd/workflow/shared"
 )
 
 var TestRunStartTime, _ = time.Parse("2006-01-02 15:04:05", "2021-02-23 04:51:00")

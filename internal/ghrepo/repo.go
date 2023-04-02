@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cli/cli/v2/internal/ghinstance"
 	ghAuth "github.com/cli/go-gh/pkg/auth"
 	"github.com/cli/go-gh/pkg/repository"
+	"github.com/moondev/cli/v2/internal/ghinstance"
 )
 
 // Interface describes an object that represents a GitHub repository

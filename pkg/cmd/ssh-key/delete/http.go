@@ -6,8 +6,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghinstance"
 )
 
 type sshKey struct {

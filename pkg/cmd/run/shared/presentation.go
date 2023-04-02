@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 )
 
 func RenderRunHeader(cs *iostreams.ColorScheme, run Run, ago, prNumber string, attempt uint64) string {

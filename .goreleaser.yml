@@ -15,7 +15,7 @@ builds:
       binary: bin/gh
       main: ./cmd/gh
       ldflags:
-        - -s -w -X github.com/cli/cli/v2/internal/build.Version={{.Version}} -X github.com/cli/cli/v2/internal/build.Date={{time "2006-01-02"}}
+        - -s -w -X github.com/moondev/cli/v2/internal/build.Version={{.Version}} -X github.com/moondev/cli/v2/internal/build.Date={{time "2006-01-02"}}
     id: macos
     goos: [darwin]
     goarch: [amd64, arm64]
@@ -59,7 +59,7 @@ archives:
 nfpms:
   - license: MIT
     maintainer: GitHub
-    homepage: https://github.com/cli/cli
+    homepage: https://github.com/moondev/cli
     bindir: /usr
     dependencies:
       - git

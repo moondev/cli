@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/ghinstance"
 	"github.com/google/shlex"
+	"github.com/moondev/cli/v2/git"
+	"github.com/moondev/cli/v2/internal/ghinstance"
 )
 
 type GitCredentialFlow struct {

@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/pkg/findsh"
 	"github.com/google/shlex"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/pkg/findsh"
 )
 
 // ExpandAlias processes argv to see if it should be rewritten according to a user's aliases. The

@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/internal/text"
-	"github.com/cli/cli/v2/pkg/cmd/gist/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/markdown"
-	"github.com/cli/cli/v2/pkg/prompt"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/internal/text"
+	"github.com/moondev/cli/v2/pkg/cmd/gist/shared"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/markdown"
+	"github.com/moondev/cli/v2/pkg/prompt"
 	"github.com/spf13/cobra"
 )
 

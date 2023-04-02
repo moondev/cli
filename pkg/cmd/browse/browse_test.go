@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/iostreams"
 	"github.com/google/shlex"
+	"github.com/moondev/cli/v2/git"
+	"github.com/moondev/cli/v2/internal/browser"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/httpmock"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 	"github.com/stretchr/testify/assert"
 )
 

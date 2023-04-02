@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/codespaces/api"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 )
 
 const CODESPACE_NAME = "monalisa-cli-cli-abcdef"

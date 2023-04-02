@@ -4,8 +4,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/cli/cli/v2/pkg/iostreams"
 	"github.com/cli/go-gh/pkg/tableprinter"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 )
 
 type TablePrinter interface {

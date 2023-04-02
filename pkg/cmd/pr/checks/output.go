@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/utils"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/utils"
 )
 
 func addRow(tp utils.TablePrinter, io *iostreams.IOStreams, o check) {

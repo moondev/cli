@@ -4,7 +4,7 @@
 package extensions
 
 import (
-	"github.com/cli/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/internal/ghrepo"
 	"io"
 	"sync"
 )

@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/internal/ghrepo"
 )
 
 func repoExists(httpClient *http.Client, repo ghrepo.Interface) (bool, error) {

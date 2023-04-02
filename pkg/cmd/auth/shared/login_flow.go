@@ -9,14 +9,14 @@ import (
 	"strings"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/authflow"
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/pkg/cmd/ssh-key/add"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/ssh"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/git"
+	"github.com/moondev/cli/v2/internal/authflow"
+	"github.com/moondev/cli/v2/internal/browser"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/pkg/cmd/ssh-key/add"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/ssh"
 )
 
 const defaultSSHKeyTitle = "GitHub CLI"

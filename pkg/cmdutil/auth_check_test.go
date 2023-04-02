@@ -3,7 +3,7 @@ package cmdutil
 import (
 	"testing"
 
-	"github.com/cli/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/config"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/codespaces/api"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/liveshare"
-	livesharetest "github.com/cli/cli/v2/pkg/liveshare/test"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/liveshare"
+	livesharetest "github.com/moondev/cli/v2/pkg/liveshare/test"
 	"github.com/sourcegraph/jsonrpc2"
 )
 
@@ -142,7 +142,7 @@ type joinWorkspaceResult struct {
 func runUpdateVisibilityTest(t *testing.T, portVisibilities []portVisibility, eventResponses []string, portsData []liveshare.PortNotification) error {
 	t.Helper()
 	if os.Getenv("GITHUB_ACTIONS") == "true" {
-		t.Skip("fails intermittently in CI: https://github.com/cli/cli/issues/5663")
+		t.Skip("fails intermittently in CI: https://github.com/moondev/cli/issues/5663")
 	}
 
 	joinWorkspace := func(conn *jsonrpc2.Conn, req *jsonrpc2.Request) (interface{}, error) {

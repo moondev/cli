@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 
@@ -35,7 +35,7 @@ func Format(version, buildDate string) string {
 }
 
 func changelogURL(version string) string {
-	path := "https://github.com/cli/cli"
+	path := "https://github.com/moondev/cli"
 	r := regexp.MustCompile(`^v?\d+\.\d+\.\d+(-[\w.]+)?$`)
 	if !r.MatchString(version) {
 		return fmt.Sprintf("%s/releases/latest", path)

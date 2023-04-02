@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

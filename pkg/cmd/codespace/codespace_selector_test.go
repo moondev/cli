@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
 )
 
 func TestSelectWithCodespaceName(t *testing.T) {

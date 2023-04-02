@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/text"
-	"github.com/cli/cli/v2/pkg/cmd/ssh-key/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/utils"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/text"
+	"github.com/moondev/cli/v2/pkg/cmd/ssh-key/shared"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/utils"
 	"github.com/spf13/cobra"
 )
 

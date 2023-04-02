@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	workflowShared "github.com/cli/cli/v2/pkg/cmd/workflow/shared"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/prompt"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	workflowShared "github.com/moondev/cli/v2/pkg/cmd/workflow/shared"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/prompt"
 )
 
 const (

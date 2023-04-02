@@ -16,12 +16,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	issueShared "github.com/cli/cli/v2/pkg/cmd/issue/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	issueShared "github.com/moondev/cli/v2/pkg/cmd/issue/shared"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 	"github.com/shurcooL/githubv4"
 	"github.com/spf13/cobra"
 )

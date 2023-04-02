@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cli/cli/v2/api"
+	"github.com/moondev/cli/v2/api"
 )
 
 type check struct {

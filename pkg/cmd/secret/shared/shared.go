@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cli/cli/v2/internal/text"
+	"github.com/moondev/cli/v2/internal/text"
 )
 
 type Visibility string

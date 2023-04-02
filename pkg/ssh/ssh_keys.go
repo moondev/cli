@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/run"
 	"github.com/cli/safeexec"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/run"
 )
 
 type Context struct {

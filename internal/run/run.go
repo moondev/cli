@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cli/cli/v2/utils"
+	"github.com/moondev/cli/v2/utils"
 )
 
 // Runnable is typically an exec.Cmd or its stub in tests

@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/codespaces/rpc/codespace"
-	"github.com/cli/cli/v2/internal/codespaces/rpc/jupyter"
-	"github.com/cli/cli/v2/internal/codespaces/rpc/ssh"
-	rpctest "github.com/cli/cli/v2/internal/codespaces/rpc/test"
+	"github.com/moondev/cli/v2/internal/codespaces/rpc/codespace"
+	"github.com/moondev/cli/v2/internal/codespaces/rpc/jupyter"
+	"github.com/moondev/cli/v2/internal/codespaces/rpc/ssh"
+	rpctest "github.com/moondev/cli/v2/internal/codespaces/rpc/test"
 	"google.golang.org/grpc"
 )
 

@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/cli/cli/v2/context"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/pkg/set"
 	"github.com/cli/go-gh/pkg/ssh"
+	"github.com/moondev/cli/v2/context"
+	"github.com/moondev/cli/v2/git"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/pkg/set"
 )
 
 const (

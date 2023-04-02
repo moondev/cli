@@ -9,13 +9,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/utils"
 	"github.com/cli/oauth"
 	"github.com/henvic/httpretty"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/browser"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/utils"
 )
 
 var (
@@ -44,7 +44,7 @@ func AuthFlow(oauthHost string, IO *iostreams.IOStreams, notice string, addition
 	callbackURI := "http://127.0.0.1/callback"
 	if ghinstance.IsEnterprise(oauthHost) {
 		// the OAuth app on Enterprise hosts is still registered with a legacy callback URL
-		// see https://github.com/cli/cli/pull/222, https://github.com/cli/cli/pull/650
+		// see https://github.com/moondev/cli/pull/222, https://github.com/moondev/cli/pull/650
 		callbackURI = "http://localhost/"
 	}
 

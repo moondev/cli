@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
 	"github.com/google/shlex"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 	"github.com/stretchr/testify/assert"
 )
 

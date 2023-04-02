@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cli/cli/v2/internal/config"
-	cmdGet "github.com/cli/cli/v2/pkg/cmd/config/get"
-	cmdList "github.com/cli/cli/v2/pkg/cmd/config/list"
-	cmdSet "github.com/cli/cli/v2/pkg/cmd/config/set"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/internal/config"
+	cmdGet "github.com/moondev/cli/v2/pkg/cmd/config/get"
+	cmdList "github.com/moondev/cli/v2/pkg/cmd/config/list"
+	cmdSet "github.com/moondev/cli/v2/pkg/cmd/config/set"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

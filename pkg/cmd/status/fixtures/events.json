@@ -78,7 +78,7 @@
             "action": "created",
             "comment": {
                 "body": "Wondering if we shouldn't name this something more generic and use it everywhere else to DRY things up a bit?",
-                "html_url": "https://github.com/cli/cli/pull/5319#discussion_r827935007"
+                "html_url": "https://github.com/moondev/cli/pull/5319#discussion_r827935007"
             },
             "pull_request": {
                 "number": 5319,
@@ -97,7 +97,7 @@
         },
         "payload": {
             "comment": {
-                "html_url": "https://github.com/cli/cli/commit/1b50852b2dfecd17ca5d3a2a12eb5c16df9fe46b#r68794505",
+                "html_url": "https://github.com/moondev/cli/commit/1b50852b2dfecd17ca5d3a2a12eb5c16df9fe46b#r68794505",
                 "body": "spam"
             }
         },

@@ -8,16 +8,16 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/cli/cli/v2/api"
-	ghContext "github.com/cli/cli/v2/context"
-	"github.com/cli/cli/v2/git"
-	"github.com/cli/cli/v2/internal/browser"
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/internal/prompter"
-	"github.com/cli/cli/v2/pkg/cmd/extension"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/api"
+	ghContext "github.com/moondev/cli/v2/context"
+	"github.com/moondev/cli/v2/git"
+	"github.com/moondev/cli/v2/internal/browser"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/internal/prompter"
+	"github.com/moondev/cli/v2/pkg/cmd/extension"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 )
 
 var ssoHeader string

@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cli/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/internal/ghinstance"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/test"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/test"
 	"github.com/stretchr/testify/assert"
 )
 

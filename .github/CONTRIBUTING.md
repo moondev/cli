@@ -60,10 +60,10 @@ You may reference the [CLI Design System][] when suggesting features, and are we
 - [GitHub Help][]
 
 
-[bug issues]: https://github.com/cli/cli/issues?q=is%3Aopen+is%3Aissue+label%3Abug
-[feature request issues]: https://github.com/cli/cli/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
-[hw]: https://github.com/cli/cli/labels/help%20wanted
-[gfi]: https://github.com/cli/cli/labels/good%20first%20issue
+[bug issues]: https://github.com/moondev/cli/issues?q=is%3Aopen+is%3Aissue+label%3Abug
+[feature request issues]: https://github.com/moondev/cli/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
+[hw]: https://github.com/moondev/cli/labels/help%20wanted
+[gfi]: https://github.com/moondev/cli/labels/good%20first%20issue
 [legal]: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service#6-contributions-under-repository-license
 [license]: ../LICENSE
 [code-of-conduct]: ./CODE-OF-CONDUCT.md

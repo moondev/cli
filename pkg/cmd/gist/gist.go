@@ -2,14 +2,14 @@ package gist
 
 import (
 	"github.com/MakeNowJust/heredoc"
-	gistCloneCmd "github.com/cli/cli/v2/pkg/cmd/gist/clone"
-	gistCreateCmd "github.com/cli/cli/v2/pkg/cmd/gist/create"
-	gistDeleteCmd "github.com/cli/cli/v2/pkg/cmd/gist/delete"
-	gistEditCmd "github.com/cli/cli/v2/pkg/cmd/gist/edit"
-	gistListCmd "github.com/cli/cli/v2/pkg/cmd/gist/list"
-	gistRenameCmd "github.com/cli/cli/v2/pkg/cmd/gist/rename"
-	gistViewCmd "github.com/cli/cli/v2/pkg/cmd/gist/view"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	gistCloneCmd "github.com/moondev/cli/v2/pkg/cmd/gist/clone"
+	gistCreateCmd "github.com/moondev/cli/v2/pkg/cmd/gist/create"
+	gistDeleteCmd "github.com/moondev/cli/v2/pkg/cmd/gist/delete"
+	gistEditCmd "github.com/moondev/cli/v2/pkg/cmd/gist/edit"
+	gistListCmd "github.com/moondev/cli/v2/pkg/cmd/gist/list"
+	gistRenameCmd "github.com/moondev/cli/v2/pkg/cmd/gist/rename"
+	gistViewCmd "github.com/moondev/cli/v2/pkg/cmd/gist/view"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

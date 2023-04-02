@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cli/cli/v2/pkg/set"
+	"github.com/moondev/cli/v2/pkg/set"
 )
 
 func squeeze(r rune) rune {

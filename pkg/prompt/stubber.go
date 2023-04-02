@@ -6,7 +6,7 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/core"
-	"github.com/cli/cli/v2/pkg/surveyext"
+	"github.com/moondev/cli/v2/pkg/surveyext"
 )
 
 type AskStubber struct {

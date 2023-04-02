@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/cli/cli/v2/internal/config"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/iostreams"
 	"github.com/google/shlex"
+	"github.com/moondev/cli/v2/internal/config"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/httpmock"
+	"github.com/moondev/cli/v2/pkg/iostreams"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -37,9 +37,9 @@ func TestNewCmdPin(t *testing.T) {
 		},
 		{
 			name:  "issue url",
-			input: "https://github.com/cli/cli/6",
+			input: "https://github.com/moondev/cli/6",
 			output: PinOptions{
-				SelectorArg: "https://github.com/cli/cli/6",
+				SelectorArg: "https://github.com/moondev/cli/6",
 			},
 		},
 	}

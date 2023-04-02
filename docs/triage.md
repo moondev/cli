@@ -74,9 +74,9 @@ https://gist.github.com/vilmibm/ee6ed8a783e4fef5b69b2ed42d743b1a
 We want our project to be a safe and encouraging open-source environment. Below are some examples
 of how to empathetically respond to or close an issue/PR:
 
-- [Closing a quality PR its scope is too large](https://github.com/cli/cli/pull/1161)
-- [Closing a stale PR](https://github.com/cli/cli/pull/557#issuecomment-639077269)
-- [Closing a PR that doesn't follow our CONTRIBUTING policy](https://github.com/cli/cli/pull/864)
+- [Closing a quality PR its scope is too large](https://github.com/moondev/cli/pull/1161)
+- [Closing a stale PR](https://github.com/moondev/cli/pull/557#issuecomment-639077269)
+- [Closing a PR that doesn't follow our CONTRIBUTING policy](https://github.com/moondev/cli/pull/864)
 - [Responding to a bug report](https://github.com/desktop/desktop/issues/9195#issuecomment-592243129)
-- [Closing an issue that out of scope](https://github.com/cli/cli/issues/777#issuecomment-612926229)
+- [Closing an issue that out of scope](https://github.com/moondev/cli/issues/777#issuecomment-612926229)
 - [Closing an issue with a feature request](https://github.com/desktop/desktop/issues/9722#issuecomment-625461766)

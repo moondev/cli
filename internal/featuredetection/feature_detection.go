@@ -3,8 +3,8 @@ package featuredetection
 import (
 	"net/http"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghinstance"
 )
 
 type Detector interface {
@@ -97,7 +97,7 @@ func (d *detector) IssueFeatures() (IssueFeatures, error) {
 
 func (d *detector) PullRequestFeatures() (PullRequestFeatures, error) {
 	// TODO: reinstate the short-circuit once the APIs are fully available on github.com
-	// https://github.com/cli/cli/issues/5778
+	// https://github.com/moondev/cli/issues/5778
 	//
 	// if !ghinstance.IsEnterprise(d.host) {
 	// 	return allPullRequestFeatures, nil

@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/pkg/cmd/search/shared"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/search"
+	"github.com/moondev/cli/v2/pkg/cmd/search/shared"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/search"
 	"github.com/spf13/cobra"
 )
 

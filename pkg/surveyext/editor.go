@@ -1,7 +1,7 @@
 package surveyext
 
 // This file extends survey.Editor to give it more flexible behavior. For more context, read
-// https://github.com/cli/cli/issues/70
+// https://github.com/moondev/cli/issues/70
 // To see what we extended, search through for EXTENDED comments.
 
 import (

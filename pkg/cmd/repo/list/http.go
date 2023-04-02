@@ -7,8 +7,8 @@ import (
 
 	"github.com/shurcooL/githubv4"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/pkg/search"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/pkg/search"
 )
 
 type RepositoryList struct {

@@ -10,11 +10,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/jsoncolor"
-	"github.com/cli/cli/v2/pkg/set"
 	"github.com/cli/go-gh/pkg/jq"
 	"github.com/cli/go-gh/pkg/template"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/jsoncolor"
+	"github.com/moondev/cli/v2/pkg/set"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

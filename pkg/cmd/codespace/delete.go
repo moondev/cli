@@ -9,8 +9,8 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/codespaces/api"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/internal/codespaces/api"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"
 )
@@ -57,7 +57,7 @@ func newDeleteCmd(app *App) *cobra.Command {
 		Args: noArgsConstraint,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			// TODO: ideally we would use the selector directly, but the logic here is too intertwined with other flags to do so elegantly
-			// After the admin subcommand is added (see https://github.com/cli/cli/pull/6944#issuecomment-1419553639) we can revisit this.
+			// After the admin subcommand is added (see https://github.com/moondev/cli/pull/6944#issuecomment-1419553639) we can revisit this.
 			opts.codespaceName = selector.codespaceName
 			opts.repoFilter = selector.repoName
 

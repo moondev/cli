@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/MakeNowJust/heredoc"
-	"github.com/cli/cli/v2/internal/prompter"
-	"github.com/cli/cli/v2/internal/run"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/pkg/ssh"
+	"github.com/moondev/cli/v2/internal/prompter"
+	"github.com/moondev/cli/v2/internal/run"
+	"github.com/moondev/cli/v2/pkg/httpmock"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/pkg/ssh"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,7 +1,7 @@
 package extension
 
 import (
-	"github.com/cli/cli/v2/git"
+	"github.com/moondev/cli/v2/git"
 	"github.com/stretchr/testify/mock"
 )
 

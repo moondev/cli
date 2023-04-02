@@ -41,7 +41,7 @@ import (
 	"time"
 
 	"github.com/cenkalti/backoff/v4"
-	"github.com/cli/cli/v2/api"
+	"github.com/moondev/cli/v2/api"
 	"github.com/opentracing/opentracing-go"
 )
 

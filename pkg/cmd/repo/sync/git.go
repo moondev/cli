@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cli/cli/v2/git"
+	"github.com/moondev/cli/v2/git"
 )
 
 type gitClient interface {

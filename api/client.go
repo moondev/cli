@@ -10,9 +10,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cli/cli/v2/internal/ghinstance"
 	"github.com/cli/go-gh"
 	ghAPI "github.com/cli/go-gh/pkg/api"
+	"github.com/moondev/cli/v2/internal/ghinstance"
 )
 
 const (

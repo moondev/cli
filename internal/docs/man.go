@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cli/cli/v2/pkg/cmd/root"
 	"github.com/cpuguy83/go-md2man/v2/md2man"
+	"github.com/moondev/cli/v2/pkg/cmd/root"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 	"github.com/spf13/pflag"

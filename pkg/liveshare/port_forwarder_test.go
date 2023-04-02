@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	livesharetest "github.com/cli/cli/v2/pkg/liveshare/test"
+	livesharetest "github.com/moondev/cli/v2/pkg/liveshare/test"
 	"github.com/sourcegraph/jsonrpc2"
 )
 
@@ -34,7 +34,7 @@ type portUpdateNotification struct {
 
 func TestPortForwarderStart(t *testing.T) {
 	if os.Getenv("GITHUB_ACTIONS") == "true" {
-		t.Skip("fails intermittently in CI: https://github.com/cli/cli/issues/5338")
+		t.Skip("fails intermittently in CI: https://github.com/moondev/cli/issues/5338")
 	}
 
 	streamName, streamCondition := "stream-name", "stream-condition"

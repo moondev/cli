@@ -1,10 +1,10 @@
 package key
 
 import (
-	cmdAdd "github.com/cli/cli/v2/pkg/cmd/ssh-key/add"
-	cmdDelete "github.com/cli/cli/v2/pkg/cmd/ssh-key/delete"
-	cmdList "github.com/cli/cli/v2/pkg/cmd/ssh-key/list"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	cmdAdd "github.com/moondev/cli/v2/pkg/cmd/ssh-key/add"
+	cmdDelete "github.com/moondev/cli/v2/pkg/cmd/ssh-key/delete"
+	cmdList "github.com/moondev/cli/v2/pkg/cmd/ssh-key/list"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

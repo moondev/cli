@@ -11,7 +11,7 @@
 2. Clone this repository
 
    ```sh
-   $ git clone https://github.com/cli/cli.git gh-cli
+   $ git clone https://github.com/moondev/cli.git gh-cli
    $ cd gh-cli
    ```
 

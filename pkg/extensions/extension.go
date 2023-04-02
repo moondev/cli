@@ -3,7 +3,7 @@ package extensions
 import (
 	"io"
 
-	"github.com/cli/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/internal/ghrepo"
 )
 
 type ExtTemplateType int

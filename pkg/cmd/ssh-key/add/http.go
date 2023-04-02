@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghinstance"
-	"github.com/cli/cli/v2/pkg/cmd/ssh-key/shared"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghinstance"
+	"github.com/moondev/cli/v2/pkg/cmd/ssh-key/shared"
 )
 
 // Uploads the provided SSH key. Returns true if the key was uploaded, false if it was not.

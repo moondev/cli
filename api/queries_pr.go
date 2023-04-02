@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/cli/cli/v2/internal/ghrepo"
+	"github.com/moondev/cli/v2/internal/ghrepo"
 	"github.com/shurcooL/githubv4"
 )
 

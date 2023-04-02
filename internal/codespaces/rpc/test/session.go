@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/cli/cli/v2/pkg/liveshare"
+	"github.com/moondev/cli/v2/pkg/liveshare"
 	"golang.org/x/crypto/ssh"
 )
 

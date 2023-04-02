@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/cli/cli/v2/api"
-	"github.com/cli/cli/v2/internal/ghrepo"
-	prShared "github.com/cli/cli/v2/pkg/cmd/pr/shared"
-	"github.com/cli/cli/v2/pkg/httpmock"
+	"github.com/moondev/cli/v2/api"
+	"github.com/moondev/cli/v2/internal/ghrepo"
+	prShared "github.com/moondev/cli/v2/pkg/cmd/pr/shared"
+	"github.com/moondev/cli/v2/pkg/httpmock"
 	"github.com/stretchr/testify/assert"
 )
 

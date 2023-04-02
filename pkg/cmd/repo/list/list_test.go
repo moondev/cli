@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cli/cli/v2/internal/config"
-	fd "github.com/cli/cli/v2/internal/featuredetection"
-	"github.com/cli/cli/v2/pkg/cmdutil"
-	"github.com/cli/cli/v2/pkg/httpmock"
-	"github.com/cli/cli/v2/pkg/iostreams"
-	"github.com/cli/cli/v2/test"
+	"github.com/moondev/cli/v2/internal/config"
+	fd "github.com/moondev/cli/v2/internal/featuredetection"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
+	"github.com/moondev/cli/v2/pkg/httpmock"
+	"github.com/moondev/cli/v2/pkg/iostreams"
+	"github.com/moondev/cli/v2/test"
 )
 
 func TestNewCmdList(t *testing.T) {

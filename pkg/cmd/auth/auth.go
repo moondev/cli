@@ -1,14 +1,14 @@
 package auth
 
 import (
-	gitCredentialCmd "github.com/cli/cli/v2/pkg/cmd/auth/gitcredential"
-	authLoginCmd "github.com/cli/cli/v2/pkg/cmd/auth/login"
-	authLogoutCmd "github.com/cli/cli/v2/pkg/cmd/auth/logout"
-	authRefreshCmd "github.com/cli/cli/v2/pkg/cmd/auth/refresh"
-	authSetupGitCmd "github.com/cli/cli/v2/pkg/cmd/auth/setupgit"
-	authStatusCmd "github.com/cli/cli/v2/pkg/cmd/auth/status"
-	authTokenCmd "github.com/cli/cli/v2/pkg/cmd/auth/token"
-	"github.com/cli/cli/v2/pkg/cmdutil"
+	gitCredentialCmd "github.com/moondev/cli/v2/pkg/cmd/auth/gitcredential"
+	authLoginCmd "github.com/moondev/cli/v2/pkg/cmd/auth/login"
+	authLogoutCmd "github.com/moondev/cli/v2/pkg/cmd/auth/logout"
+	authRefreshCmd "github.com/moondev/cli/v2/pkg/cmd/auth/refresh"
+	authSetupGitCmd "github.com/moondev/cli/v2/pkg/cmd/auth/setupgit"
+	authStatusCmd "github.com/moondev/cli/v2/pkg/cmd/auth/status"
+	authTokenCmd "github.com/moondev/cli/v2/pkg/cmd/auth/token"
+	"github.com/moondev/cli/v2/pkg/cmdutil"
 	"github.com/spf13/cobra"
 )
 

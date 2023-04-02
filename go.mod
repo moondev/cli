@@ -1,4 +1,4 @@
-module github.com/cli/cli/v2
+module github.com/moondev/cli/v2
 
 go 1.19
 
